@@ -1,0 +1,21 @@
+{
+  "name": "digitranit-3.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "git":"git add . && git commit -m \"update\" && git push origin main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Legal-Pirates-Official/LP-Product-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Legal-Pirates-Official/LP-Product-1/issues"
+  },
+  "homepage": "https://github.com/Legal-Pirates-Official/LP-Product-1#readme"
+}

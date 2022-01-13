@@ -186,6 +186,23 @@
     border-radius: 10px;
     overflow: hidden;
 }
+
+.client-focus:nth-child(1)
+{
+    background: url("https://images.ctfassets.net/pnliwdxhy0tx/3vsjvXICrIW6zK5cJeL5xg/535e5d1237f70cb4dd850debcb90857a/20160315152835-startup-pagina.jpeg") center/cover no-repeat;
+}
+.client-focus:nth-child(2)
+{
+    background: url("https://www.bringyourfinancestolife.com/wp-content/uploads/2018/05/sm-business-2.jpg") center/cover no-repeat;
+}
+.client-focus:nth-child(3)
+{
+    background: url("https://d16yj43vx3i1f6.cloudfront.net/uploads/2019/08/GettyImages-611899150.jpg") center/cover no-repeat;
+}
+.client-focus:nth-child(4)
+{
+    background: url("https://st.depositphotos.com/1152339/3259/i/950/depositphotos_32597153-stock-photo-business-concept-enterprise-on-digital.jpg") center/cover no-repeat;
+}
 .client-focus h2
 {
     padding: 2% 0%;

@@ -606,7 +606,6 @@
   transform: rotate(0deg);
 }
 
-<<<<<<< HEAD
 .div-eight-one
 {
   background: url("https://images.unsplash.com/photo-1633114128729-0a8dc13406b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8dGVhbXdvcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60") center/cover no-repeat;
@@ -622,9 +621,6 @@
 
 .eigth-section-two a
 {
-=======
-.eigth-section-two a {
->>>>>>> 83bb4d5b634972911ef7add5ccb3a1308c16cda2
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -667,9 +663,6 @@
   }
   .forth-main-div {
     grid-template-columns: repeat(1, 1fr);
-  }
-  .fifth-section {
-    
   }
   .eighth-section {
     height: auto;

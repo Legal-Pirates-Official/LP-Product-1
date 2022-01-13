@@ -142,3 +142,13 @@ textarea
     background-color: white;
     color: crimson;
 }
+@media (max-width:600px) {
+    .contact-section{
+        flex-direction: column;
+        height: auto;
+    }
+    .contact-div {
+        width: 100%;
+        height: auto;
+    }
+}

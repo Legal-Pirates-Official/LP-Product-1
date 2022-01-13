@@ -61,7 +61,7 @@
 {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,15 +80,15 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
 }
 
 .career-div
 {
     position: relative;
-    width: 65%;
-    height: 85%;
+    width: 85%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

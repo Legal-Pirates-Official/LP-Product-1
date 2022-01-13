@@ -10,10 +10,11 @@
     position: relative;
     background: url("../images/img/about-main.png") center/cover no-repeat;
     width: 100%;
-    height: 87vh;
+    /* height: 87vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
     align-items: center;
 }
 
@@ -43,7 +44,7 @@
 {
     font-size: 1.5em;
     /* width: 50%; */
-    text-align: center;
+    text-align: justify;
     color: #fff;
     /* text-shadow: 0px 0px 5px #000; */
 }
@@ -61,9 +62,10 @@
 .second-section-about p
 {
     font-size: 1.5em;
+    padding: 2.5rem;
     width: 95%;
     margin: 4% 0%;
-    text-align: center;
+    text-align: justify;
     color: #000;
 }
 
@@ -192,4 +194,30 @@
     color: #fff;
     font-size: 1.4rem;
     background: rgba(0, 0, 0, 0.733);
+}
+
+@media (max-width:600px) {
+    .client-focus-div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .client-focus {
+        width: 80%;
+    }
+    .about-section-first-div h1 {
+        font-size: 2rem;
+        width: 70%;
+
+    }
+    .about-section-first-div p {
+        font-size: 1.3rem;
+    }
+    .second-section-about p {
+        font-size: 1.3rem;
+    }
+    .client-focus-section h1 {
+        font-size: 2rem;
+    }
+    .client-focus-section p {
+        font-size: 1.3rem;
+    }
 }

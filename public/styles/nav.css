@@ -38,8 +38,13 @@ h6 {
 }
 
 .image-logo {
+<<<<<<< HEAD
   width: 12%;
   height: 100%;
+=======
+
+ height: 60px;
+>>>>>>> 83bb4d5b634972911ef7add5ccb3a1308c16cda2
   margin-left: 1rem;
 }
 
@@ -59,6 +64,7 @@ h6 {
 	flex-direction: column;
 	/* align-items: center; */
 	justify-content: center;
+	margin-bottom: 2rem;
 }
 .all-button-btn-atag::after {
 	content: '→';
